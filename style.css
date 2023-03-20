@@ -24,6 +24,7 @@
   float: left;
   height: 70px;
 }
+
 .logo {
   color: #ff7200;
   font-size: 35px;
@@ -32,6 +33,7 @@
   padding-top: 10px;
   float: left;
 }
+
 .menu {
   width: 400px;
   height: 70px;
@@ -225,6 +227,10 @@ ul li a:hover {
 }
 .icon a {
   text-decoration: none;
+  color: #ff7200;
+  transition: 0.3s ease;
+}
+.icon a:hover {
   color: white;
 }
 .icon ion-icon {
